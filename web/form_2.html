@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form TWO</title>
+</head>
+<body>
+<form action="type_parameters" method="get">
+    <table>
+        <tr>
+            <td>First Name:</td>
+            <td><input type="text" name="firstName"></td>
+        </tr>
+        <tr>
+            <td>Last Name:</td>
+            <td><input type="text" name="lastName"></td>
+        </tr>
+        <tr>
+            <td>Profession:</td>
+            <td>
+                <select name="job" multiple size="6">
+                    <option value="Developer">Developer</option>
+                    <option selected value="Tester">Tester</option>
+                    <option value="Analyst">Analyst</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Gender:</td>
+            <td>
+                <input type="radio" name="gender" value="Male">Male
+                <input type="radio" name="gender" value="Female">Female
+            </td>
+        </tr>
+        <tr>
+            <td>More than 18 years old?:</td>
+            <td>
+                <input type="checkbox" name="age18" value="Yes">Yes
+            </td>
+        </tr>
+        <tr>
+            <td align="right" colspan="2"><input type="submit" value="Send"></td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>
